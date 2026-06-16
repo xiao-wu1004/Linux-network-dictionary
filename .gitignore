@@ -1,0 +1,8 @@
+dict_server
+dict_client
+*.o
+my.db
+*.log
+core
+core.*
+tests/tmp/
