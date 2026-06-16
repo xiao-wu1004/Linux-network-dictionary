@@ -301,5 +301,5 @@ This project is a good reference if you want to study:
 
 ## 许可证 | License
 
-当前仓库还没有包含许可证文件。如果你计划公开发布或允许他人复用，建议补充一个如 MIT 的许可证。  
-No license file is currently included in this repository. If you plan to publish or reuse it openly, adding a license such as MIT would be a good next step.
+本仓库采用 MIT License，具体内容见 [LICENSE](LICENSE)。  
+This repository is released under the MIT License. See [LICENSE](LICENSE) for details.
