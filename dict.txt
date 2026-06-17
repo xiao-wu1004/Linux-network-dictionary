@@ -1,5 +1,6 @@
 abandon   v.抛弃，放弃
 abandonment   n.放弃
+abasement   n.滥用
 abbreviation   n.缩写
 abeyance   n.缓办，中止
 abide   v.遵守
@@ -33,7 +34,6 @@ absurdity   n.荒唐(事)
 abundance   n.丰富，大量
 abundant   adj.丰富的，充裕的
 abuse   v.滥用，谩骂
-abasement   n.滥用
 academic   adj.学院的，学术的
 academy   n.学院，研究院
 accede   v.同意
@@ -74,9 +74,9 @@ accusation   n.控告
 accuse   v.告发，指责
 accustom   v.使...习惯于
 ache   v.觉得疼 n.疼痛
-aching   adj.疼痛的
 achieve   v.完成，实现
 achievement   n.完成，成就
+aching   adj.疼痛的
 acid   n.酸
 acknowledge   v.承认，鸣谢
 acknowledgment   n.承认，鸣谢，回执
@@ -149,8 +149,8 @@ adversary   adj.敌手，对手
 adverse   v.逆的，相反的
 adversity   n.逆境，不幸
 advertise   v.登广告，推销
-advertising   adj.广告的
 advertisement   n.广告
+advertising   adj.广告的
 advice   n.忠告，意见
 advisable   adj.适当的，可行的
 advise   v.劝告，通知
@@ -325,8 +325,8 @@ ant   n.蚂蚁
 antagonism   n.对立，敌对
 antagonist   n.对手，敌手
 antarctic   adj.南极的
-antibiotic   adj.抗菌的
 antecedent   n.触角，天线
+antibiotic   adj.抗菌的
 anticipate   v.期望，预料
 anticipation   n.期望，预料
 antique   adj.古老的 n.古玩
@@ -409,9 +409,9 @@ aristocrat   n.贵族
 aristocratic   adj.贵族的
 arithmetic   n.算术
 arm   n.手臂，扶手 v.武装
-arms   n.武器
 armchair   n.手扶椅
 armour   n.盔甲，装甲
+arms   n.武器
 army   n.军队，陆军
 around   adv.在周围，大约
 arouse   v.唤醒，唤起
@@ -783,12 +783,12 @@ bona fide   adj.真诚的，无欺的
 bond   n.束缚，联结，债券
 bonded   adj.保税的
 bone   n.骨，骨骼
-bony   adj.骨头的
 bonus   n.红利
+bony   adj.骨头的
 book   n.书 v.预订(票)
+bookcase   n.书橱
 booking   adj.定货
 booklet   n.小册子
-bookcase   n.书橱
 bookshelf   n.书架
 bookstore   n.书店
 boom   v.隆隆响，兴旺，繁荣
@@ -846,8 +846,8 @@ breadth   n.宽度，大量
 break   n.打破，破坏 n.裂口
 breakage   n.裂口
 breakdown   n.故障，衰竭
-breakthrough   n.突破
 breakfast   n.早饭
+breakthrough   n.突破
 breast   n.乳房，胸脯
 breath   n.呼吸，气息
 breathe   v.呼吸
@@ -1052,8 +1052,8 @@ casual   adj.偶然的，随便的
 casualty   n.伤亡
 cat   n.猫
 catalog   n.(商品)目录
-catastrophe   n.灾难
 catalyst   n.催化剂
+catastrophe   n.灾难
 catch   v.捕获，染病 n.捉
 category   n.种类，范畴
 cater   v.提供
@@ -1079,10 +1079,10 @@ cemetery   n.墓场
 censor   v.审查
 censorship   n.审查
 cent   n.分币
+center   n.中心 v.集中
 centigrade   adj.摄氏的
 centimeter   n.厘米
 central   adj.中心的，中央的
-center   n.中心 v.集中
 century   n.世纪
 cereal   n.谷物
 ceremonial   adj.仪式的
@@ -1161,8 +1161,7 @@ chill   n.寒意 v.冷却
 chilly   adj.凉的，冷淡的
 chimney   n.烟囱
 chin   n.下巴，下颊
-china   n.中国
-china   n.瓷器，陶瓷
+china   n.中国；n.瓷器，陶瓷
 chinese   adj.,n.中国的
 chip   n.片，屑，缺口
 chocolate   n.巧克力
@@ -1181,8 +1180,8 @@ cigar   n.雪茄
 cigarette   n.卷烟
 cinema   n.电影院
 circle   n.圆，果 v.画圈于
-circular   adj.圆圈的
 circuit   n.巡回，电路
+circular   adj.圆圈的
 circulate   v.循环，流通，流传
 circulation   n.循环，销路，周转
 circumference   n.周围，圆周
@@ -1198,8 +1197,8 @@ civilize   v.使...文明，开化
 claim   v.要求，索赔，声称
 clamp   n.夹子 v.夹紧
 clap   v.排手，鼓掌
-clarify   v.弄清(问题)
 clarification   n.澄清
+clarify   v.弄清(问题)
 clash   v.,n.碰撞，冲突
 clasp   n.扣子 v.紧握(抱)
 class   n.阶级，种类，班级
@@ -1290,8 +1289,7 @@ collide   v.猛烈碰撞，冲突
 collision   n.猛烈碰拉，冲突
 colonel   n.上校
 colonial   adj.殖民的，殖民地的
-colonist   n.殖民者，移民
-colonist   n.殖民主义
+colonist   n.殖民者，移民；n.殖民主义
 colony   n.殖民地
 color   n.颜色，色彩，气色
 colorblind   adj.色盲的
@@ -1311,11 +1309,11 @@ comfortable   adj.舒适的，自在的
 comic   adj.喜剧的，滑稽的
 command   v.,n.命令，控制
 commander   n.司令，指挥官
+commandment   n.称赞
 commemorate   n.纪念
 commemoration   v.纪念
 commence   v.开始
 commend   v.称赞，推荐
-commandment   n.称赞
 comment   n.,v.评论
 commerce   n.商业
 commercial   adj.商业的，商务的
@@ -1347,6 +1345,7 @@ comparison   n.比较
 compass   n.指南针，圆规
 compatible   adj.可兼容的，一致的
 compel   v.强迫，逼迫
+compels   v.强迫
 compensate   v.赔偿，补偿，酬报
 compensation   n.赔偿，补偿
 compete   v.竞争，比赛
@@ -1385,7 +1384,6 @@ compress   v.压缩
 compression   n.压缩，凝缩
 comprise   v.包括，由...组成
 compromise   n.,v.妥协，和解
-compels   v.强迫
 compulsory   adj.强制的，必修的
 computation   n.计算
 compute   v.计算
@@ -1541,8 +1539,8 @@ contrast   n.,v.对照，对比
 contribute   v.捐献，贡献，投稿
 contribution   n.贡献，捐献物
 control   v.,n.控制，管理
-controversy   n.论战，论争
 controversial   adj.有争议的
+controversy   n.论战，论争
 convenience   n.方便，便利
 convenient   adj.便利的，方便的
 convention   n.大会，协定，惯例
@@ -1597,8 +1595,8 @@ corrupt   adj.腐败的，腐化的
 corruption   n.腐败，腐化
 cosmetics   n.化妆品
 cosmic   adj.宇宙的
-cosmos   n.宇宙
 cosmopolitan   n.大都市
+cosmos   n.宇宙
 cost   n.成本，费用 v.花费
 costly   adj.昂贵的
 cottage   n.村舍
@@ -1659,8 +1657,8 @@ creation   n.创造，创造物
 creative   adj.有创造力(性)的
 creature   n.家伙，生物
 credit   n.信誉，信用 v.相信
-creditworthy   adj.有信誉的
 creditworthiness   n.商誉
+creditworthy   adj.有信誉的
 creek   n.小川，小湾
 creep   v.爬行，蔓延
 crew   n.(飞机等的)全体人员
@@ -1752,8 +1750,6 @@ dancer   n.舞蹈者，舞蹈演员
 danger   n.危险，威胁
 dangerous   adj.有危险的
 danish   adj.,n.丹麦人(的)
-database   n.数据库
-denmark   n.丹麦
 dare   v.敢，挑战，竟敢
 daring   adj.大胆的，勇敢的
 dark   adj.黑暗的 n.暗处
@@ -1763,6 +1759,7 @@ darling   n.爱人 adj.心爱的
 dart   n.飞标游戏
 dash   v.猛冲,泼溅 n.破折号
 data   n.(复数)资料，数据
+database   n.数据库
 date   n.日期 v.注日期
 dating   n.约会
 daughter   n.女儿
@@ -1794,12 +1791,12 @@ decade   n.十年
 decay   v.,n.腐烂，衰败
 deceased   adj.已死的
 deceit   n.欺骗，欺诈行为
-deceive   v.欺骗
-deception   n.欺诈
 deceitful   adj.欺骗性的
+deceive   v.欺骗
 december   n.十二月
 decency   n.体面
 decent   adj.体面的，象样的
+deception   n.欺诈
 decide   v.决定，判决
 decided   adj.明确的，果断的
 decidedly   adv.明确地，果断的
@@ -1887,6 +1884,7 @@ demonstration   n.示范，表演，示威
 demurrage   n.滞期费
 den   n.窝
 denial   n.拒绝，否定
+denmark   n.丹麦
 denominate   v.为...命名
 denomination   n.命名
 denote   v.表示
@@ -2013,16 +2011,16 @@ digit   n.数字
 digital   adj.数字的
 dignity   n.尊贵，尊严
 dike   n.堤
-dilute   v.稀释
 diligent   adj.勤奋的，用功的
+dilute   v.稀释
 dim   adj.暗淡的，模糊的
 dime   n.(美元)一角
 dimension   n.维，方面，尺寸
 dimensional   adj.尺寸的
 diminish   v.减少，缩小
 dine   v.用餐
-diningroom   n.餐厅
 dingy   adj.肮脏的
+diningroom   n.餐厅
 dinner   n.正餐，晚餐，宴会
 dip   v.,n.蘸，浸
 diploma   n.毕业文凭，学位证书
@@ -2086,8 +2084,8 @@ disguise   v.,n.伪装，掩饰
 disgust   n.厌恶 v.使讨厌
 disgustful   adj.令人生厌的
 dish   n.盘子，碟子
-dishonorable   adj.不名誉的
 dishonor   n.耻辱 v.凌辱
+dishonorable   adj.不名誉的
 disillusion   v.使觉醒，幻灭
 disinclined   adj.不愿意的
 disinfectant   n.消毒剂
@@ -2359,8 +2357,8 @@ eleven   num.十一
 eleventh   num.第十一
 eliminate   v.消灭，删除
 elimination   n.消灭，删除
-elliptical   adj.椭圆的，省略的
 ellipsis   n.省略
+elliptical   adj.椭圆的，省略的
 eloquence   n.雄辩，口才
 eloquent   adj.雄辩的，有口才的
 else   adj.别的 adv.否则
@@ -2683,7 +2681,7 @@ eyeball   n.眼球
 eyebrow   n.眉毛
 eyeglass   n.眼镜
 eyelid   n.眼睑
-eyesight   n.视力 
+eyesight   n.视力
 fable   n.寓言
 fabric   n.织物，结构，组织
 fabricate   v.制作，捏造
@@ -2712,8 +2710,8 @@ fake   adj.冒片的 n.冒牌货
 fall   v.落下，跌倒 n.瀑布
 false   adj.假的，假造的
 fame   n.名声，声誉
-familiarity   n.熟悉，相似
 familiar   adj.熟悉的，亲近的
+familiarity   n.熟悉，相似
 family   n.家庭，家属
 famine   n.饥荒，饥饿
 famous   adj.著名的
@@ -3144,8 +3142,8 @@ globalize   v.使...全球化
 globe   n.地球，球体，地球仪
 gloom   n.黑暗，忧郁
 gloomy   adj.阴沉的，忧郁的
-glorious   adj.光荣的，辉煌的
 glorify   v.颂扬，赞美
+glorious   adj.光荣的，辉煌的
 glory   n.光荣，壮丽，荣誉
 glossary   n.词汇表
 glove   n.手套
@@ -3166,8 +3164,8 @@ good   adj.好的，善良的
 goodbye   int.再见
 goodlooking   adj.好看的
 goodness   n.优良，天哪
-goodself   n.你方
 goods   n.货物，商品
+goodself   n.你方
 goodwill   n.商誉
 goose   n.鹅
 gorge   n.咽喉，峡谷，山口
@@ -3175,8 +3173,8 @@ gorgeous   adj.绚丽的，了不起的
 gorilla   n.大猩猩
 gossip   n.闲谈，聊天
 govern   v.统制，支配，决定
-government   n.编制，政体，政府
 governess   n.女家庭教师
+government   n.编制，政体，政府
 governor   n.州长，总督
 gown   n.长袍，法衣
 grab   v.抓住，攫取
@@ -3275,8 +3273,8 @@ gust   n.一阵(大风)
 gutter   n.街沟
 guy   n.家伙
 gymnasium   n.体育馆，健身房
-gymnastics   n.体操
 gymnast   n.体操运动员
+gymnastics   n.体操
 habit   n.习惯
 habitual   adj.习惯的，惯常的
 haggard   adj.消瘦的，憔悴的
@@ -3306,8 +3304,8 @@ handicapped   adj.有残疾的
 handkerchief   n.手帕，手绢
 handle   v.处理，对待 n.把
 handling   n.处理，管理
-handsome   adj.漂亮的，得体
 handout   n.分发物(印刷品等)
+handsome   adj.漂亮的，得体
 handwriting   n.手写，书法，笔迹
 handy   adj.方便的，近便的
 hang   v.挂，垂，绞死
@@ -3436,10 +3434,10 @@ him   pron.他(宾格)
 himself   pron.他自己
 hind   adj.后面的，后部的
 hinder   v.妨碍，阻止
-hinterland   n.内地
 hindrance   n.障碍(物)
 hinge   n.合页，绞链
 hint   n.暗示，迹象 v.暗示
+hinterland   n.内地
 hip   n.臀部
 hire   v.租，雇佣
 his   pron.他的
@@ -3491,8 +3489,8 @@ horror   n.恐惧，恐怖
 horse   n.马
 horsepower   n.马力
 hose   n.软水管，长统袜
-hospital   n.医院
 hospitable   adj.好客的
+hospital   n.医院
 hospitality   n.好客，款待
 host   n.一大群，男主人
 hostage   n.人质
@@ -3503,8 +3501,8 @@ hot   adj.热的，辣的
 hotdog   n.热狗(面包)
 hotel   n.旅馆
 hotelling   n.旅馆业
-hour   n.小时，点钟
 hound   n.猎狗 v.追逐
+hour   n.小时，点钟
 house   n.房子，剧场，家
 household   n.户 adj.家庭的
 housekeeper   n.看门人，保姆
@@ -3556,8 +3554,8 @@ hysteria   n.歇斯底里，癔病
 hysteric   adj.亢奋的
 i   .我
 ice   n.冰，冰块
-icecream   n.冰淇淋
 icebound   adj.冰封的
+icecream   n.冰淇淋
 iceland   n.冰岛
 icy   adj.冰冷的，结了冰的
 idea   n.思想，主意，打算
@@ -3579,6 +3577,7 @@ ignite   v.点燃
 ignorance   n.无知，不知道
 ignorant   adj.不知道的，无知的
 ignore   v.忽视，不理睬
+iIrish   n.,adj.爱尔兰人(的)
 ill   adj.患病的，坏的
 illegal   adj.不合法的，非法的
 illegible   adj.字迹不清的
@@ -3716,8 +3715,8 @@ inducement   n.诱导，动机
 induction   n.感应，归纳
 indulge   v.放纵，放任，纵容
 industrial   adj.工业的
-industrialize   v.使工业化
 industrialization   n.工业化
+industrialize   v.使工业化
 industrialized   adj.工业化的
 industrious   adj.勤劳的，勤奋的
 industry   n.工业，产业，勤奋
@@ -3755,8 +3754,7 @@ informative   adj.提供资料的
 infrequent   adj.不经常的
 infringe   v.侵权
 infringement   n.侵权
-ingenious   adj.灵巧的，精巧的
-ingenious   adj.独创的，机智的
+ingenious   adj.灵巧的，精巧的；adj.独创的，机智的
 ingenuity   n.灵巧，机灵，巧妙
 inhabit   v.居住，栖身
 inhabitant   n.居民
@@ -3901,7 +3899,6 @@ involvement   n.卷入，涉足
 inward   adj.里面的，内心的
 inwards   adv.向内的
 ireland   n.爱尔兰
-iIrish   n.,adj.爱尔兰人(的)
 iron   n.铁，熨斗 v.熨平
 ironical   adj.反讽的，讽刺的
 irony   n.反讽，讽刺
@@ -3939,11 +3936,11 @@ japanese   n.,adj.日本人(的)
 jar   n.罐子，坛子，刺耳声
 jaw   n.下颚，下巴
 jazz   n.爵士乐
-jealousy   n.妒忌
 jealous   adj.妒忌的
+jealousy   n.妒忌
 jeans   n.牛仔裤
-jelly   n.果冻
 jeep   n.吉普车
+jelly   n.果冻
 jeopardize   v.危及
 jerk   n.颠簸，猛推
 jesus   n.耶稣
@@ -4034,8 +4031,8 @@ knowledge   n.知识，学识
 knowledgeable   adj.博学的
 lab   n.(缩)实验室
 label   n.标签 v.标明
-laboratory   n.实验室
 labor   n.劳动，劳动力
+laboratory   n.实验室
 laborer   n.劳工，劳动者
 laborintensive   adj.劳动密集型的
 lace   n.花边，鞋带
@@ -4323,8 +4320,8 @@ maker   n.制造者，制造商
 makeshift   adj.临时的n.权宜之计
 makeup   n.气质，化妆品
 malady   n.病
-malaria   n.疟疾
 malaise   n.马来西亚
+malaria   n.疟疾
 malaysia   n.马来西亚
 male   adj.男性的，雄的
 malice   n.恶意，恶感
@@ -4354,8 +4351,7 @@ many   adj.许多的 n.许多
 map   n.地图 v.筹划
 maple   n.枫树
 marble   n.大理石，弹子
-march   n.三月
-march   n.,v.行进，行军
+march   n.三月；n.,v.行进，行军
 margin   n.余地，边缘
 marginal   adj.边缘的，边际的
 marine   adj.海的，海生的
@@ -4395,8 +4391,8 @@ material   n.材料，资料，原料
 materialism   n.唯物主义
 materialize   v.使具体化，物质化
 mathematical   adj.数学的
-mathematics   n.数学
 mathematician   n.数字家
+mathematics   n.数学
 maths   n.(缩)数学
 matinee   n.日场演出
 matter   n.事情，物资，毛病
@@ -4405,8 +4401,7 @@ mature   adj.成熟的，到期的
 maturity   n.成熟，到期
 maximize   v.增加到最大程度
 maximum   n.最大量，极限
-may   n.五月
-may   v.可以，也许，祝愿
+may   n.五月；v.可以，也许，祝愿
 maybe   adv.或许，大概
 mayor   n.市长
 me   pron.我(宾格)
@@ -4453,12 +4448,11 @@ mental   adj.心理的，精神的
 mentality   n.心理，意识
 mention   v.,n.提及，讲到
 menu   n.菜单
+mercantile   n.商品
 merchandise   n.商品，货物
 merchant   n.商人 adj.商业的
-mercantile   n.商品
 merciful   adj.仁慈的，宽大的
-mercury   n.水星
-mercury   n.汞，水银
+mercury   n.水星；n.汞，水银
 mercy   n.宽大，慈悲，怜悯
 mere   adj.仅仅的，起码的
 merely   adv.仅仅，只
@@ -4665,14 +4659,14 @@ muffle   v.裹住，捂住
 muffler   n.围巾，消音器
 mug   n.(有柄)大杯
 mule   n.骡子
+multifunction   n.多功能的
 multiple   adj.复合的，多次方的
 multiplication   n.乘法，增加
 multiply   v.乘，增加，繁殖
-multifunction   n.多功能的
 multitude   n.大批，大群
-municipal   adj.市的，市政的
 mumble   v.咕哝，嘟囔
 mumps   n.腮腺炎
+municipal   adj.市的，市政的
 murder   v.,n.谋杀(案)
 murderer   n.凶手，杀人犯
 murmur   v.低声说
@@ -4832,8 +4826,8 @@ noun   n.名词
 nourish   v.养育，提供养分
 nourishment   n.食物，补品
 novel   adj.新颖的 n.小说
-novelist   n.小说家
 novelette   n.中篇小说
+novelist   n.小说家
 novelty   n.新奇，新颖
 november   n.十一月
 now   adv.n.现在 conj.既然
@@ -5228,8 +5222,8 @@ perpetual   adj.永久的，永恒的
 perplex   v.迷惑，难住
 persecute   v.迫害
 persecution   n.迫害
-persevere   v.坚持
 perseverance   n.坚持
+persevere   v.坚持
 persist   v.坚持，固执，持续
 persistence   n.坚持，持续
 person   n.人，人称，身体
@@ -5866,6 +5860,7 @@ recur   v.再发生，复发
 recurrence   n.再发生
 red   adj.红的 n.红色
 redeem   v.买回，赎回
+rediculous   adj.可笑的，荒谬的
 redound   v.增加，促进
 reduce   v.减少，贬为
 reduction   n.减少，缩减
@@ -6034,8 +6029,8 @@ resist   v.抵抗，忍住
 resistance   n.抵抗，阻力，反感
 resistant   n.抵抗的，反对的
 resolute   adj.坚决的，果断的
-resolution   n.决议，决定，决心
 resolutely   adj.坚决地，果断地
+resolution   n.决议，决定，决心
 resolve   v.决定，解决，分解
 resort   v.诉诸，求助 n.胜地
 resource   n.资源，机智，策略
@@ -6061,8 +6056,7 @@ restriction   n.限制，约束
 restrictive   n.限制的
 result   n.结果，效果，后果
 resultant   adj.结果的，合成的
-resume   v.继续，再度
-resume   n.个人简历，摘要
+resume   v.继续，再度；n.个人简历，摘要
 retail   v.,n.零售
 retailer   n.零售商
 retain   v.保留，记忆，雇
@@ -6104,7 +6098,6 @@ riddle   n.谜语，谜
 ride   v.乘坐，骑 n.乘车
 ridge   n.山脉，岭，屋脊
 ridicule   n.,v.嘲笑，挖苦
-rediculous   adj.可笑的，荒谬的
 rifle   n.步枪，来福枪
 right   adj.正确的，右的
 righteous   adj.正直的，公正的
@@ -6212,9 +6205,9 @@ sailing   adj.启航的 n.航行
 sailor   n.水手，海员
 saint   n.圣人，圣徒
 sake   n.缘故，利益
-salad   n.色拉，拌凉菜
 salability   n.适销性
 salable   adj.有销路的，适销的
+salad   n.色拉，拌凉菜
 salary   n.工资，薪水
 sale   n.出售，贱卖
 sales   n.销售 adj.出售的
@@ -6288,9 +6281,9 @@ score   n.得分，成绩，二十
 scorn   n.,v.蔑视，不屑
 scornful   adj.蔑视的，轻视的
 scotch   n.苏格兰
+scotland   n.苏格兰
 scotsman   n.苏格兰人
 scottish   adj.苏格兰的
-scotland   n.苏格兰
 scout   n.侦察员，童子军
 scramble   v.爬，攀，争夺
 scrap   n.碎片，废品，屑
@@ -6348,8 +6341,8 @@ selfish   adj.自私的，利己的
 sell   v.卖，出售
 seller   n.卖方
 semester   n.学期
-seminar   n.研讨会，学术讲座
 semiconductor   n.半导体
+seminar   n.研讨会，学术讲座
 senate   n.参议院
 senator   n.参议员
 send   v.派遣，送，寄出，请
@@ -6478,8 +6471,8 @@ showroom   n.展室，陈列室
 shrewd   adj.机敏的，精明的
 shriek   v.,n.尖叫(声)
 shrill   v.刺耳的 v.尖叫
-shrine   n.神龛
 shrimp   n.虾
+shrine   n.神龛
 shrink   v.收缩，畏缩
 shroud   n.遮蔽物
 shrub   n.灌木
@@ -6491,8 +6484,8 @@ shutter   n.百叶窗，快门
 shuttle   n.梭 v.穿梭
 shy   adj.害羞的，腼腆的
 sick   adj.有病的，厌恶的
-sickness   n.病
 sickle   n.镰刀
+sickness   n.病
 side   n.边，面，侧面，一方
 sidewalk   n.人行道
 sideways   adv.侧面地
@@ -6793,8 +6786,8 @@ square   n.正方形，广场，平方
 squash   v.压碎 n.果子汁
 squat   v.蹲
 squeeze   v.压，榨，挤
-s. s.   n.(缩)轮船
 squirrel   n.松鼠
+s. s.   n.(缩)轮船
 stab   v.,n.刺，戳
 stability   n.稳定性
 stable   adj.稳固的，稳定的
@@ -6894,8 +6887,8 @@ stove   n.炉子，火炉
 stow   v.装载，理舱
 stowage   n.装载
 straight   adj.直的 adv.笔直地
-straightforward   adj.直爽的
 straighten   v.弄直
+straightforward   adj.直爽的
 strain   v.拉紧，扭伤，使紧张
 strait   n.海峡
 strand   n.(绳)股，缕
@@ -6931,8 +6924,8 @@ stroke   n.敲，笔划 v.抚摸
 stroll   v.,n.散步，闲逛
 stroller   n.散步者
 strong   adj.强壮的，强烈的
-strongly   adv.强烈地，强有力地
 stronghold   n.堡垒，要塞
+strongly   adv.强烈地，强有力地
 structural   adj.结构的，组织上的
 structure   n.结构，构造，组织
 struggle   v.,n.斗争，奋斗
@@ -7142,8 +7135,8 @@ tape   n.条，带，磁带
 taperecorder   n.录音机
 taperecording   n.录音
 tar   n.沥青，柏油
-target   n.目标，对象，靶
 tare   n.皮重
+target   n.目标，对象，靶
 tariff   n.关税
 task   n.工作，任务
 taste   n.味道，趣味 v.品尝
@@ -7178,12 +7171,12 @@ television   n.电视，电视机
 telex   n.电传 v.发电传
 tell   v.告诉，讲，说出
 teller   n.出纳
+tempatation   n.诱惑，引诱
 temper   n.情绪，脾气
 temperature   n.温度，体温
 temple   n.庙，寺院，太阳穴
 temporary   adj.暂时的，临时的
 tempt   v.引诱，诱惑
-tempatation   n.诱惑，引诱
 ten   num.十
 tenant   n.房客，承租人
 tend   v.趋向，照料，投标
@@ -7222,7 +7215,7 @@ than   conj.比，除...外
 thank   v.谢谢，感谢
 thankful   adj.感谢的，欣慰的
 thanks   n.感谢 int.谢谢
-thanksgiving day   ]n.感恩节
+thanksgiving day   n.感恩节
 that   adj.那,那个 adv.那么
 the   (定冠词)那，这
 theatre   n.剧场，戏剧，舞台
@@ -7257,8 +7250,8 @@ thigh   n.大腿
 thin   adj.薄的，瘦的
 thing   n.东西，事情
 think   v.想，相信，认为
-thinking   n.思想
 thinker   n.思想家
+thinking   n.思想
 third   num.第三，三分之一
 thirst   n.渴，渴望
 thirsty   adj.渴的，渴望的
@@ -7296,7 +7289,7 @@ thumb   n.拇指
 thumbtack   n.按钉，图钉
 thunder   n.雷 v.隆隆响
 thunderstorm   n.雷雨
-thursday  ]n.星期四
+thursday   ]n.星期四
 thus   adv.如此，这样，因而
 tick   n.滴答声 v.打勾号
 ticket   n.票，标签，价目单
@@ -7385,8 +7378,8 @@ trace   n.痕迹，微量 v.追踪
 track   n.径赛，轨道，路径
 tractor   n.拖拉机
 trade   n.贸易，交换 v.经商
-trader   n.商人
 trademark   n.商标
+trader   n.商人
 tradesman   n.商人
 tradition   n.传统，惯例
 traditional   adj.传统的
@@ -7405,12 +7398,12 @@ trample   v.践踏，蹂躏
 tranquil   adj.平静的，安宁的
 transact   v.交易
 transaction   n.交易
+transcient   adj.短暂的，瞬时的
 transfer   v.转移，转让
 transferable   adj.可转让的
 transform   v.转变，转化
 transformation   n.转化，转变
 transformer   n.变压器
-transcient   adj.短暂的，瞬时的
 transistor   n.晶体管(收音机)
 transit   v.运输，转运
 transition   n.过渡，转变
@@ -7427,9 +7420,9 @@ transship   v.转运，转船
 transshipment   n.转运
 transverse   adj.横向的，横断的
 trap   n.陷井，圈套 v.诱捕
-traverse   n.,v.横断，横过
 travel   v.旅行，传导
 traveler   n.旅行者
+traverse   n.,v.横断，横过
 tray   n.托盘
 tread   v.踩，践踏
 treason   n.谋反，叛国
@@ -8050,6 +8043,5 @@ zipper   n.拉链
 zone   n.地带，区域，区
 zoo   n.动物园
 zoologist   n.动物学家
-zoology   n.动物学       
+zoology   n.动物学
 zoom   v.快速移动，急速上升 n.嗡嗡声
-

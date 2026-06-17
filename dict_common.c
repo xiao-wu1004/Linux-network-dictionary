@@ -215,6 +215,7 @@ int is_valid_word(const char *word)
 {
     size_t index;
     size_t length;
+    int seen_non_space = 0;
 
     if (word == NULL) {
         return 0;
@@ -227,12 +228,16 @@ int is_valid_word(const char *word)
 
     for (index = 0; index < length; ++index) {
         unsigned char ch = (unsigned char)word[index];
-        if (isspace(ch) || iscntrl(ch)) {
+        if (iscntrl(ch)) {
             return 0;
         }
+        if (isspace(ch)) {
+            continue;
+        }
+        seen_non_space = 1;
     }
 
-    return 1;
+    return seen_non_space;
 }
 
 const char *msg_type_name(int type)

@@ -4,7 +4,7 @@ SERVER_LIBS ?= -lsqlite3 -lcrypto
 
 COMMON_OBJS = dict_common.o
 
-.PHONY: all server client clean run-server run-client
+.PHONY: all server client clean run-server run-client check-dict fix-dict
 
 all: server client
 
@@ -32,6 +32,12 @@ run-server: dict_server
 
 run-client: dict_client
 	./dict_client 127.0.0.1 8888
+
+check-dict:
+	python3 tests/check_dict.py dict.txt
+
+fix-dict:
+	python3 tests/check_dict.py --fix dict.txt
 
 clean:
 	rm -f dict_server dict_client *.o my.db tests/tmp/server.log

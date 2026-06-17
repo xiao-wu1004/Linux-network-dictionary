@@ -79,6 +79,12 @@ def run(host: str, port: int) -> None:
         "about",
         "above",
     ]
+    known_phrases = [
+        "united kingdom",
+        "united nations",
+        "united states",
+        "close down",
+    ]
 
     with socket.create_connection((host, port), timeout=5) as first_sock:
         send_msg(first_sock, MSG_TYPE_QUERY, "forged_user", "abandon")
@@ -107,6 +113,12 @@ def run(host: str, port: int) -> None:
             assert_true(data not in (ERR_AUTH, NOT_FOUND), f"expected dictionary hit for {word}")
             time.sleep(0.02)
 
+        for phrase in known_phrases:
+            send_msg(first_sock, MSG_TYPE_QUERY, "still_forged", phrase)
+            _, _, data = recv_msg(first_sock)
+            assert_true(data not in (ERR_AUTH, NOT_FOUND), f"expected dictionary hit for {phrase}")
+            time.sleep(0.02)
+
         send_msg(first_sock, MSG_TYPE_QUERY, "still_forged", "definitely_missing_word")
         _, _, data = recv_msg(first_sock)
         assert_equal(data, NOT_FOUND, "missing word should return NOT_FOUND")
@@ -123,7 +135,7 @@ def run(host: str, port: int) -> None:
 
         assert_true(history_rows, "expected non-empty history")
         assert_equal(len(history_rows), 10, "history response should retain only 10 rows")
-        assert_true(any("above" in row for row in history_rows), "latest queried word should appear in history")
+        assert_true(any("close down" in row for row in history_rows), "latest queried phrase should appear in history")
 
     with sqlite3.connect("my.db") as db:
         user_rows = db.execute(

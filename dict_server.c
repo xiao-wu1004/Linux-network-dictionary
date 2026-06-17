@@ -56,6 +56,7 @@ static void dictionary_free(Dictionary *dictionary);
 static int dictionary_insert(Dictionary *dictionary, const char *word, const char *meaning);
 static const char *dictionary_lookup(const Dictionary *dictionary, const char *word);
 static int load_dictionary(Dictionary *dictionary, const char *path);
+static char *find_definition_separator(char *line);
 static void format_timestamp(char *buffer, size_t buffer_size);
 static void hex_encode(const unsigned char *input, size_t input_size, char *output, size_t output_size);
 static int hex_decode(const char *input, unsigned char *output, size_t output_size);
@@ -232,6 +233,21 @@ static const char *dictionary_lookup(const Dictionary *dictionary, const char *w
     return NULL;
 }
 
+static char *find_definition_separator(char *line)
+{
+    char *cursor = line;
+
+    while (*cursor != '\0') {
+        if ((*cursor == ' ' || *cursor == '\t') &&
+            (cursor[1] == ' ' || cursor[1] == '\t')) {
+            return cursor;
+        }
+        cursor++;
+    }
+
+    return NULL;
+}
+
 static int load_dictionary(Dictionary *dictionary, const char *path)
 {
     FILE *fp;
@@ -246,7 +262,7 @@ static int load_dictionary(Dictionary *dictionary, const char *path)
     }
 
     while (fgets(line, sizeof(line), fp) != NULL) {
-        char *delimiter;
+        char *separator;
         char *word;
         char *meaning;
 
@@ -257,21 +273,18 @@ static int load_dictionary(Dictionary *dictionary, const char *path)
         }
 
         word = line;
-        delimiter = word;
-        while (*delimiter != '\0' && *delimiter != ' ' && *delimiter != '\t') {
-            delimiter++;
-        }
-        if (*delimiter == '\0') {
+        separator = find_definition_separator(word);
+        if (separator == NULL) {
             skipped++;
             continue;
         }
 
-        *delimiter++ = '\0';
-        while (*delimiter == ' ' || *delimiter == '\t') {
-            delimiter++;
+        *separator++ = '\0';
+        while (*separator == ' ' || *separator == '\t') {
+            separator++;
         }
 
-        meaning = delimiter;
+        meaning = separator;
         trim_whitespace(word);
         trim_whitespace(meaning);
         if (word[0] == '\0' || meaning[0] == '\0') {

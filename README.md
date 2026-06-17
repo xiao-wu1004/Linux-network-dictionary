@@ -229,6 +229,7 @@ CREATE TABLE record (
 
 ```text
 word meaning
+multi word headword  meaning
 ```
 
 服务端启动时会执行以下操作 / At startup the server:
@@ -236,6 +237,9 @@ word meaning
 - 一次性加载词典文件 / loads the dictionary file once
 - 跳过空行和格式错误的行 / skips malformed or empty lines
 - 将条目存入内存哈希表 / stores entries in an in-memory hash table
+
+词典使用“两个及以上空白字符”分隔词头和释义，因此词头本身可以包含空格，例如 `united kingdom`。  
+The dictionary uses two or more whitespace characters to separate the headword from the definition, so headwords themselves may contain spaces, such as `united kingdom`.
 
 这样可以避免每次查询都重新扫描文本文件。  
 This avoids rescanning the text file for every query request.
@@ -246,6 +250,30 @@ This avoids rescanning the text file for every query request.
 
 ```bash
 bash tests/smoke_test.sh
+```
+
+检查词典排序、重复词和格式问题 / Check dictionary ordering, duplicate words, and entry format:
+
+```bash
+python3 tests/check_dict.py dict.txt
+```
+
+或使用 Makefile 目标 / Or use the Makefile target:
+
+```bash
+make check-dict
+```
+
+自动修复排序、重复词和可规范化词头 / Auto-fix ordering, duplicate words, and normalizable headwords:
+
+```bash
+python3 tests/check_dict.py --fix dict.txt
+```
+
+或使用 / Or use:
+
+```bash
+make fix-dict
 ```
 
 该测试会执行以下步骤 / The smoke test will:
